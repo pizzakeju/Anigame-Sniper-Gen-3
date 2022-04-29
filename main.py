@@ -363,37 +363,44 @@ async def on_message(message):
                                 anigameLotteryLoop.cancel()
                             elif not anigameLotteryLoop.is_running() and anigameLottery == "on":
                                 anigameLotteryLoop.start()
+                                await asyncio.sleep(2)
 
                             if anigameHourlyLoop.is_running() and anigameHourly == "off":
                                 anigameHourlyLoop.cancel()
                             elif not anigameHourlyLoop.is_running() and anigameHourly == "on":
                                 anigameHourlyLoop.start()
+                                await asyncio.sleep(2)
 
                             if anigameBTALLLoop.is_running() and anigameBTALL == "off":
                                 anigameBTALLLoop.cancel()
                             elif not anigameBTALLLoop.is_running() and anigameBTALL == "on":
                                 anigameBTALLLoop.start()
+                                await asyncio.sleep(2)
 
                             if anigameAutoFloor.is_running() and anigameAutoFloor_ == "off":
                                 anigameAutoFloor.cancel()
                             elif not anigameAutoFloor.is_running() and anigameAutoFloor_ == "on":
                                 await changeArea()
                                 anigameAutoFloor.start()
+                                await asyncio.sleep(2)
 
                             if izziLotteryLoop.is_running() and izziLottery == "off":
                                 izziLotteryLoop.cancel()
                             elif not izziLotteryLoop.is_running() and izziLottery == "on":
                                 izziLotteryLoop.start()
+                                await asyncio.sleep(2)
                                 
                             if izziHourlyLoop.is_running() and izziLottery == "off":
                                 izziHourlyLoop.cancel()
                             elif not izziHourlyLoop.is_running() and izziLottery == "on":
                                 izziHourlyLoop.start()
+                                await asyncio.sleep(2)
                             
                             if izziBTALLLoop.is_running() and izziBTALL == "off":
                                 izziBTALLLoop.cancel()
                             elif not izziBTALLLoop.is_running() and izziBTALL == "on":
                                 izziBTALLLoop.start()
+                                await asyncio.sleep(2)
 
                             if izziAutoFloor.is_running() and izziAutoFloor_ == "off":
                                 izziAutoFloor.cancel()
@@ -401,6 +408,7 @@ async def on_message(message):
                                 await changeLoc()
                                 await asyncio.sleep(2)
                                 izziAutoFloor.start()
+                                await asyncio.sleep(2)
 
                             print(getColour(anigameLottery)[0] + f'Anigame Lottery : {anigameLottery}')
                             print(getColour(anigameHourly)[0] + f'Anigame Hourly : {anigameHourly}')
