@@ -189,13 +189,13 @@ async def on_ready():
 
 
 #anigame auto floor/location
-@tasks.loop(minutes=30)
+@tasks.loop(minutes=15)
 async def anigameAutoFloor():
     await client.get_channel(int(baseChannelID)).send(f'{baseChannelAnigamePrefix}fl {anigameFloor["currentFloor"]}')
     await client.get_channel(int(baseChannelID)).send(f'{baseChannelAnigamePrefix}bt')
-    await asyncio.sleep(450) 
-    await client.get_channel(int(baseChannelID)).send(f'{baseChannelAnigamePrefix}bt all')
-    await asyncio.sleep(450)
+    await asyncio.sleep(300) 
+    #await client.get_channel(int(baseChannelID)).send(f'{baseChannelAnigamePrefix}bt all')
+    #await asyncio.sleep(450)
     await client.get_channel(int(baseChannelID)).send(f'{baseChannelAnigamePrefix}fl {anigameFloor["currentFloor"]+1}')
 
 
@@ -215,14 +215,14 @@ async def anigameBTALLLoop():
     await client.get_channel(int(baseChannelID)).send(f'{baseChannelAnigamePrefix}bt all')
 
 #izzi auto floor/location
-@tasks.loop(minutes=30)
+@tasks.loop(minutes=15)
 async def izziAutoFloor():
     await client.get_channel(int(baseChannelID)).send(f'{baseChannelIzziPrefix}fl {izziFloor["currentFloor"]}')
     await asyncio.sleep(5) 
     await client.get_channel(int(baseChannelID)).send(f'{baseChannelIzziPrefix}bt')
-    await asyncio.sleep(450) 
-    await client.get_channel(int(baseChannelID)).send(f'{baseChannelIzziPrefix}bt all')
-    await asyncio.sleep(450)
+    await asyncio.sleep(300) 
+    #await client.get_channel(int(baseChannelID)).send(f'{baseChannelIzziPrefix}bt all')
+    #await asyncio.sleep(450)
     await client.get_channel(int(baseChannelID)).send(f'{baseChannelIzziPrefix}fl {izziFloor["currentFloor"]+1}')
 
 
