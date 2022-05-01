@@ -935,7 +935,7 @@ async def on_message(message):
                         if author == client.user.name and f'Travelled to Arena [{getConfig()["izziLocNumber"]}-{izziFloor["currentFloor"]+1}]' in title and izziAutoFloor_ == "on":
                             izziFloor['currentFloor'] += 1
                             data = getConfig();data['izziFloorNumber']+=1;setConfig(data)
-                        elif content.strip() == f"Summoner **{client.user.name}**, you have cleared this zone! Use ``zone n`` to move to the next one" and izziAutoFloor_ == "on":
+                        elif f"Summoner **{client.user.name}**, you have cleared this zone!" in content.strip() and izziAutoFloor_ == "on":
                             izziFloor['currentFloor'] = 1
                             data = getConfig();data['izziFloorNumber']=1;data['izziLocNumber']+=1;setConfig(data)
                             await changeLoc() 
