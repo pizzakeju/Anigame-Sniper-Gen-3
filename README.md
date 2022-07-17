@@ -18,19 +18,32 @@ ___
 </pre>
 </details>
 ___
-## Get the sniper
+<details>
+<summary>Get the sniper</summary>
+<br/>
+
 - Download the codes as zip file or,
 - Clone this repo or,
 - Fork this repo or,
 - Just copy the codes
+
+</details>
 ___
-## Setting up
+<details>
+<summary>Setting up</summary>
+<br/>
+
 - run configmaker.py
 - fill in the details
 - run installer.py
 - run main.py
+
+</details>
 ___
-## Commands
+<details>
+<summary>Commands</summary>
+<br/>
+
 
 | Command | Description |
 | ------ | ----------- |
@@ -51,13 +64,24 @@ ___
 | addguild   | whole server is now being sniped |
 | removeguild   | the server is now not being sniped |
 | clearchannels   | no channel is being sniped now |
+
+</details>
 ___
-## Links
+<details>
+<summary>Links</summary>
+<br/>
+
 <a href="https://www.youtube.com/watch?v=x42bHeDuPgw" target="_blank" ><img src="https://github.com/Sebastian09-09/Anigame-Sniper-Gen-3/blob/main/images/Anigame%20Sniper%20Gen-3.png" width="350" /></a>  <br><br>
 > <a href="https://discord.gg/GYpvU3CGMq">Discord Support Server</a>
+
+</details>
 ___
-## Disclaimer
+<details>
+<summary>Disclaimer</summary>
+<br/>
+
 ### warning
 *This is against Discord's TOS and can get your account banned , use at your own risk!* 
 > If you like my sniper consider putting a star on this repo !
 
+</details>
