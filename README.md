@@ -1,6 +1,10 @@
 # Anigame Sniper Gen-3
 ___
-## Features
+<details open>
+<summary>## Features</summary>
+<br/>
+
+<pre>
 - Inbuilt Spammer , can spam with multiple accounts
 - Responds to your messages in discord (on/off)
 - Snipes only where you want it to
@@ -12,6 +16,7 @@ ___
 - claims izzi hourly (on/off)
 - does izzi battle all (on/off) every hour
 - notifies you if you catch a valuable card (you can configure what the valuable card is in notifications.json )
+</pre>
 ___
 ## Get the sniper
 - Download the codes as zip file or,
