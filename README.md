@@ -80,6 +80,5 @@
 
 ### warning
 *This is against Discord's TOS and can get your account banned , use at your own risk!* 
-> If you like my sniper consider putting a star on this repo !
-
 </details>
+> If you like my sniper consider putting a star on this repo !
