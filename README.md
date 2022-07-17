@@ -23,9 +23,7 @@
 <br/>
 
 - Download the codes as zip file or,
-- Clone this repo or,
-- Fork this repo or,
-- Just copy the codes
+- Clone this repo to your local machine
 
 </details>
 
