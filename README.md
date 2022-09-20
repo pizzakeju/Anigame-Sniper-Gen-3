@@ -1,3 +1,5 @@
+[ no longer supported and doesnt work as well ]
+
 # Anigame Sniper Gen-3
 
 <details>
