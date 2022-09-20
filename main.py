@@ -959,7 +959,7 @@ async def on_message(message):
             print(errorColour + f'{e}');print(cleanColour,end='')
 
 try:
-    #server.keep_alive()
+    server.keep_alive()
     client.run(token)
 except Exception as e:
     print(errorColour + f'{e}');print(cleanColour,end='')
