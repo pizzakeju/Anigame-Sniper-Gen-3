@@ -2,9 +2,11 @@ import os
 import requests 
 
 try:
+    import discord 
     from discord.ext import commands , tasks
 except:
     os.system('pip install discord')
+    import discord 
     from discord.ext import commands , tasks
 try:
     from colorama import Fore, Style , init;init()
@@ -115,9 +117,11 @@ except Exception as e:
     print(errorColour + f'Failed to Fetch config data\n{e}')
 
 try:
+    intents = discord.Intents.all()
     client = commands.Bot(
         command_prefix=prefix,  
-        case_insensitive=True 
+        case_insensitive=True,
+        intents = intents
     )
 except Exception as e:
     print(errorColour + f'{e}')
@@ -955,8 +959,8 @@ async def on_message(message):
             print(errorColour + f'{e}');print(cleanColour,end='')
 
 try:
-    server.keep_alive()
-    client.run(token, bot=False)
+    #server.keep_alive()
+    client.run(token)
 except Exception as e:
     print(errorColour + f'{e}');print(cleanColour,end='')
     if '429 Too Many Requests' in str(e):
