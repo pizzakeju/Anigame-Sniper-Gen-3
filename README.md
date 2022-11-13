@@ -1,5 +1,7 @@
 # Anigame Sniper Gen-3
 
+[ does not work anymore ]
+
 <details>
 <summary>Features</summary>
 <br/>
